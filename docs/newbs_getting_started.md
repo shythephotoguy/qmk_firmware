@@ -114,13 +114,13 @@ NOTE: remember to follow the instructions printed at the end of installation (us
 
 <!-- tabs:end -->
 
-## 3. Run QMK Setup :id=set-up-qmk
+## 3. Run QMK MSYS Setup :id=set-up-qmk
 
 <!-- tabs:start -->
 
 ### ** Windows **
 
-After installing QMK you can set it up with this command:
+After installing QMK MSYS you can run it and set it up with this command:
 
     qmk setup
 
@@ -128,7 +128,7 @@ In most situations you will want to answer `y` to all of the prompts.
 
 ### ** macOS **
 
-After installing QMK you can set it up with this command:
+After installing QMK MSYS you can run it and set it up with this command:
 
     qmk setup
 
@@ -136,7 +136,7 @@ In most situations you will want to answer `y` to all of the prompts.
 
 ### ** Linux/WSL **
 
-After installing QMK you can set it up with this command:
+After installing QMK MSYS you can run it and set it up with this command:
 
     qmk setup
 
@@ -150,7 +150,7 @@ Luckily, the fix is easy. Run this as your user: `echo 'PATH="$HOME/.local/bin:$
 
 ###  ** FreeBSD **
 
-After installing QMK you can set it up with this command:
+After installing QMK MSYS you can run it and set it up with this command:
 
     qmk setup
 
@@ -164,7 +164,7 @@ In most situations you will want to answer `y` to all of the prompts.
 
 ## 4. Test Your Build Environment
 
-Now that your QMK build environment is set up, you can build a firmware for your keyboard. Start by trying to build the keyboard's default keymap. You should be able to do that with a command in this format:
+Now that your QMK build environment is set up, you can run QMK MSYS and build a firmware for your keyboard. Start by trying to build the keyboard's default keymap. You should be able to do that in QMK MSYS with a command in this format:
 
     qmk compile -kb <keyboard> -km default
 
